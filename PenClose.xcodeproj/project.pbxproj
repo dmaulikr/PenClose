@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2D9CD013A6757500515127 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D9CCF13A6757500515127 /* AudioToolbox.framework */; };
+		8C2D9CD413A6761300515127 /* Stroke.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9CD213A6761300515127 /* Stroke.caf */; };
+		8C2D9CD913A67B3E00515127 /* OptionsView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9CD713A67B3E00515127 /* OptionsView_iPhone.xib */; };
+		8C2D9D1A13A6CA7E00515127 /* CheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D9D1913A6CA7E00515127 /* CheckView.m */; };
+		8C2D9D1D13A6D66300515127 /* OptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D9D1C13A6D66200515127 /* OptionsController.m */; };
+		8C2D9D2013A6DA5500515127 /* OptionsView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D1E13A6DA5500515127 /* OptionsView_iPad.xib */; };
+		8C2D9D6F13A7C71900515127 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6913A7C71900515127 /* Default-Portrait~ipad.png */; };
+		8C2D9D7013A7C71900515127 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6A13A7C71900515127 /* Default.png */; };
+		8C2D9D7113A7C71900515127 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6B13A7C71900515127 /* Default@2x.png */; };
+		8C2D9D7213A7C71900515127 /* Icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6C13A7C71900515127 /* Icon-ipad.png */; };
+		8C2D9D7313A7C71900515127 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6D13A7C71900515127 /* Icon.png */; };
+		8C2D9D7413A7C71900515127 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8C2D9D6E13A7C71900515127 /* iTunesArtwork */; };
+		8C3D915E13A12A8600E7FD23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3D915D13A12A8600E7FD23 /* UIKit.framework */; };
+		8C3D916013A12A8600E7FD23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3D915F13A12A8600E7FD23 /* Foundation.framework */; };
+		8C3D916213A12A8600E7FD23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3D916113A12A8600E7FD23 /* CoreGraphics.framework */; };
+		8C3D916813A12A8600E7FD23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C3D916613A12A8600E7FD23 /* InfoPlist.strings */; };
+		8C3D916B13A12A8600E7FD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D916A13A12A8600E7FD23 /* main.m */; };
+		8C3D916E13A12A8600E7FD23 /* PenCloseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D916D13A12A8600E7FD23 /* PenCloseAppDelegate.m */; };
+		8C3D917213A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D917113A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.m */; };
+		8C3D917913A12A8600E7FD23 /* PenCloseAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D917813A12A8600E7FD23 /* PenCloseAppDelegate_iPad.m */; };
+		8C68D8A113A56C430067D7A9 /* PeopleView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C68D89F13A56C430067D7A9 /* PeopleView_iPad.xib */; };
+		8CA02A5713A639E3000F68EB /* DiamondContentDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA02A5613A639E3000F68EB /* DiamondContentDelegate.m */; };
+		8CACD44113A255A90015867A /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CACD43F13A255A90015867A /* MenuController.m */; };
+		8CACD44513A255FE0015867A /* MenuView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CACD44313A255FE0015867A /* MenuView_iPhone.xib */; };
+		8CACD44F13A270E40015867A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CACD44E13A270E40015867A /* GameKit.framework */; };
+		8CACD45D13A2D1E90015867A /* PeopleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CACD45C13A2D1E80015867A /* PeopleController.m */; };
+		8CACD46313A2D9E50015867A /* PeopleView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CACD46113A2D9E50015867A /* PeopleView_iPhone.xib */; };
+		8CACD46613A35B990015867A /* PeerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CACD46513A35B970015867A /* PeerSession.m */; };
+		8CACD46C13A3B4350015867A /* MenuView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CACD46A13A3B4350015867A /* MenuView_iPad.xib */; };
+		8CBF6C2713A12E10000A392D /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF6C2613A12E10000A392D /* GameController.m */; };
+		8CBF6C2A13A12E24000A392D /* SheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF6C2913A12E24000A392D /* SheetView.m */; };
+		8CBF6C2D13A12E3B000A392D /* DiamondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF6C2C13A12E3B000A392D /* DiamondController.m */; };
+		8CBF6C3013A12EEF000A392D /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF6C2E13A12EEF000A392D /* MainWindow_iPhone.xib */; };
+		8CBF6C3313A12EF7000A392D /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF6C3113A12EF7000A392D /* MainWindow_iPad.xib */; };
+		8CBF6C3613A12FC8000A392D /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF6C2E13A12EEF000A392D /* MainWindow_iPhone.xib */; };
+		8CBF6C3913A12FCF000A392D /* GameView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF6C3713A12FCF000A392D /* GameView_iPhone.xib */; };
+		8CBF6C3C13A13071000A392D /* GameView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CBF6C3A13A13071000A392D /* GameView_iPad.xib */; };
+		8CC789DB13A16B2F006F3525 /* DiamondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC789DA13A16B2F006F3525 /* DiamondModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C2D9CCF13A6757500515127 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8C2D9CD313A6761300515127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Stroke.caf; sourceTree = "<group>"; };
+		8C2D9CD813A67B3E00515127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/OptionsView_iPhone.xib; sourceTree = "<group>"; };
+		8C2D9D1813A6CA7D00515127 /* CheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckView.h; path = Classes/CheckView.h; sourceTree = "<group>"; };
+		8C2D9D1913A6CA7E00515127 /* CheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckView.m; path = Classes/CheckView.m; sourceTree = "<group>"; };
+		8C2D9D1B13A6D66100515127 /* OptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsController.h; path = Classes/OptionsController.h; sourceTree = "<group>"; };
+		8C2D9D1C13A6D66200515127 /* OptionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsController.m; path = Classes/OptionsController.m; sourceTree = "<group>"; };
+		8C2D9D1F13A6DA5500515127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/OptionsView_iPad.xib; sourceTree = "<group>"; };
+		8C2D9D6913A7C71900515127 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		8C2D9D6A13A7C71900515127 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8C2D9D6B13A7C71900515127 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8C2D9D6C13A7C71900515127 /* Icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-ipad.png"; sourceTree = "<group>"; };
+		8C2D9D6D13A7C71900515127 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8C2D9D6E13A7C71900515127 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		8C3D915913A12A8600E7FD23 /* PenClose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenClose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3D915D13A12A8600E7FD23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C3D915F13A12A8600E7FD23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C3D916113A12A8600E7FD23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C3D916513A12A8600E7FD23 /* PenClose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PenClose-Info.plist"; sourceTree = "<group>"; };
+		8C3D916713A12A8600E7FD23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C3D916913A12A8600E7FD23 /* PenClose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PenClose-Prefix.pch"; sourceTree = "<group>"; };
+		8C3D916A13A12A8600E7FD23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C3D916C13A12A8600E7FD23 /* PenCloseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PenCloseAppDelegate.h; sourceTree = "<group>"; };
+		8C3D916D13A12A8600E7FD23 /* PenCloseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PenCloseAppDelegate.m; sourceTree = "<group>"; };
+		8C3D917013A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PenCloseAppDelegate_iPhone.h; path = iPhone/PenCloseAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8C3D917113A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PenCloseAppDelegate_iPhone.m; path = iPhone/PenCloseAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8C3D917713A12A8600E7FD23 /* PenCloseAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PenCloseAppDelegate_iPad.h; path = iPad/PenCloseAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8C3D917813A12A8600E7FD23 /* PenCloseAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PenCloseAppDelegate_iPad.m; path = iPad/PenCloseAppDelegate_iPad.m; sourceTree = "<group>"; };
+		8C68D8A013A56C430067D7A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/PeopleView_iPad.xib; sourceTree = "<group>"; };
+		8CA02A5513A639E3000F68EB /* DiamondContentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiamondContentDelegate.h; path = Classes/DiamondContentDelegate.h; sourceTree = "<group>"; };
+		8CA02A5613A639E3000F68EB /* DiamondContentDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiamondContentDelegate.m; path = Classes/DiamondContentDelegate.m; sourceTree = "<group>"; };
+		8CACD43E13A255A90015867A /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuController.h; path = Classes/MenuController.h; sourceTree = "<group>"; };
+		8CACD43F13A255A90015867A /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuController.m; path = Classes/MenuController.m; sourceTree = "<group>"; };
+		8CACD44413A255FE0015867A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MenuView_iPhone.xib; sourceTree = "<group>"; };
+		8CACD44E13A270E40015867A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8CACD45B13A2D1E80015867A /* PeopleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeopleController.h; path = Classes/PeopleController.h; sourceTree = "<group>"; };
+		8CACD45C13A2D1E80015867A /* PeopleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeopleController.m; path = Classes/PeopleController.m; sourceTree = "<group>"; };
+		8CACD46213A2D9E50015867A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/PeopleView_iPhone.xib; sourceTree = "<group>"; };
+		8CACD46413A35B970015867A /* PeerSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeerSession.h; path = Classes/PeerSession.h; sourceTree = "<group>"; };
+		8CACD46513A35B970015867A /* PeerSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeerSession.m; path = Classes/PeerSession.m; sourceTree = "<group>"; };
+		8CACD46B13A3B4350015867A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MenuView_iPad.xib; sourceTree = "<group>"; };
+		8CBF6C2513A12E10000A392D /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameController.h; path = Classes/GameController.h; sourceTree = "<group>"; };
+		8CBF6C2613A12E10000A392D /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameController.m; path = Classes/GameController.m; sourceTree = "<group>"; };
+		8CBF6C2813A12E24000A392D /* SheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SheetView.h; path = Classes/SheetView.h; sourceTree = "<group>"; };
+		8CBF6C2913A12E24000A392D /* SheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SheetView.m; path = Classes/SheetView.m; sourceTree = "<group>"; };
+		8CBF6C2B13A12E3B000A392D /* DiamondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiamondController.h; path = Classes/DiamondController.h; sourceTree = "<group>"; };
+		8CBF6C2C13A12E3B000A392D /* DiamondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiamondController.m; path = Classes/DiamondController.m; sourceTree = "<group>"; };
+		8CBF6C2F13A12EEF000A392D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8CBF6C3213A12EF7000A392D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		8CBF6C3813A12FCF000A392D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/GameView_iPhone.xib; sourceTree = "<group>"; };
+		8CBF6C3B13A13071000A392D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/GameView_iPad.xib; sourceTree = "<group>"; };
+		8CC789D913A16B2F006F3525 /* DiamondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiamondModel.h; path = Classes/DiamondModel.h; sourceTree = "<group>"; };
+		8CC789DA13A16B2F006F3525 /* DiamondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiamondModel.m; path = Classes/DiamondModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3D915613A12A8600E7FD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2D9CD013A6757500515127 /* AudioToolbox.framework in Frameworks */,
+				8CACD44F13A270E40015867A /* GameKit.framework in Frameworks */,
+				8C3D915E13A12A8600E7FD23 /* UIKit.framework in Frameworks */,
+				8C3D916013A12A8600E7FD23 /* Foundation.framework in Frameworks */,
+				8C3D916213A12A8600E7FD23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C2D9D6813A7C71900515127 /* Packaging */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D9D6913A7C71900515127 /* Default-Portrait~ipad.png */,
+				8C2D9D6A13A7C71900515127 /* Default.png */,
+				8C2D9D6B13A7C71900515127 /* Default@2x.png */,
+				8C2D9D6C13A7C71900515127 /* Icon-ipad.png */,
+				8C2D9D6D13A7C71900515127 /* Icon.png */,
+				8C2D9D6E13A7C71900515127 /* iTunesArtwork */,
+			);
+			path = Packaging;
+			sourceTree = "<group>";
+		};
+		8C3D914E13A12A8600E7FD23 = {
+			isa = PBXGroup;
+			children = (
+				8C3D916313A12A8600E7FD23 /* PenClose */,
+				8C3D915C13A12A8600E7FD23 /* Frameworks */,
+				8C3D915A13A12A8600E7FD23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3D915A13A12A8600E7FD23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3D915913A12A8600E7FD23 /* PenClose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3D915C13A12A8600E7FD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D9CCF13A6757500515127 /* AudioToolbox.framework */,
+				8CACD44E13A270E40015867A /* GameKit.framework */,
+				8C3D915D13A12A8600E7FD23 /* UIKit.framework */,
+				8C3D915F13A12A8600E7FD23 /* Foundation.framework */,
+				8C3D916113A12A8600E7FD23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C3D916313A12A8600E7FD23 /* PenClose */ = {
+			isa = PBXGroup;
+			children = (
+				8CC789D813A16AFC006F3525 /* Classes */,
+				8C3D916C13A12A8600E7FD23 /* PenCloseAppDelegate.h */,
+				8C3D916D13A12A8600E7FD23 /* PenCloseAppDelegate.m */,
+				8C3D916F13A12A8600E7FD23 /* iPhone */,
+				8C3D917613A12A8600E7FD23 /* iPad */,
+				8C3D916413A12A8600E7FD23 /* Supporting Files */,
+			);
+			path = PenClose;
+			sourceTree = "<group>";
+		};
+		8C3D916413A12A8600E7FD23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D9D6813A7C71900515127 /* Packaging */,
+				8C2D9CD213A6761300515127 /* Stroke.caf */,
+				8C3D916513A12A8600E7FD23 /* PenClose-Info.plist */,
+				8C3D916613A12A8600E7FD23 /* InfoPlist.strings */,
+				8C3D916913A12A8600E7FD23 /* PenClose-Prefix.pch */,
+				8C3D916A13A12A8600E7FD23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C3D916F13A12A8600E7FD23 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8CBF6C2E13A12EEF000A392D /* MainWindow_iPhone.xib */,
+				8CACD44313A255FE0015867A /* MenuView_iPhone.xib */,
+				8CACD46113A2D9E50015867A /* PeopleView_iPhone.xib */,
+				8CBF6C3713A12FCF000A392D /* GameView_iPhone.xib */,
+				8C2D9CD713A67B3E00515127 /* OptionsView_iPhone.xib */,
+				8C3D917013A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.h */,
+				8C3D917113A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8C3D917613A12A8600E7FD23 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8CBF6C3113A12EF7000A392D /* MainWindow_iPad.xib */,
+				8CACD46A13A3B4350015867A /* MenuView_iPad.xib */,
+				8C68D89F13A56C430067D7A9 /* PeopleView_iPad.xib */,
+				8CBF6C3A13A13071000A392D /* GameView_iPad.xib */,
+				8C2D9D1E13A6DA5500515127 /* OptionsView_iPad.xib */,
+				8C3D917713A12A8600E7FD23 /* PenCloseAppDelegate_iPad.h */,
+				8C3D917813A12A8600E7FD23 /* PenCloseAppDelegate_iPad.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		8CBF6C2213A12D6F000A392D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CC789D913A16B2F006F3525 /* DiamondModel.h */,
+				8CC789DA13A16B2F006F3525 /* DiamondModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8CBF6C2313A12D76000A392D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CBF6C2813A12E24000A392D /* SheetView.h */,
+				8CBF6C2913A12E24000A392D /* SheetView.m */,
+				8CA02A5513A639E3000F68EB /* DiamondContentDelegate.h */,
+				8CA02A5613A639E3000F68EB /* DiamondContentDelegate.m */,
+				8C2D9D1813A6CA7D00515127 /* CheckView.h */,
+				8C2D9D1913A6CA7E00515127 /* CheckView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8CBF6C2413A12D7B000A392D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CACD43E13A255A90015867A /* MenuController.h */,
+				8CACD43F13A255A90015867A /* MenuController.m */,
+				8CACD45B13A2D1E80015867A /* PeopleController.h */,
+				8CACD45C13A2D1E80015867A /* PeopleController.m */,
+				8CBF6C2513A12E10000A392D /* GameController.h */,
+				8CBF6C2613A12E10000A392D /* GameController.m */,
+				8CBF6C2B13A12E3B000A392D /* DiamondController.h */,
+				8CBF6C2C13A12E3B000A392D /* DiamondController.m */,
+				8C2D9D1B13A6D66100515127 /* OptionsController.h */,
+				8C2D9D1C13A6D66200515127 /* OptionsController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8CC789D813A16AFC006F3525 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8CBF6C2213A12D6F000A392D /* Model */,
+				8CBF6C2313A12D76000A392D /* View */,
+				8CBF6C2413A12D7B000A392D /* Controller */,
+				8CACD46413A35B970015867A /* PeerSession.h */,
+				8CACD46513A35B970015867A /* PeerSession.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3D915813A12A8600E7FD23 /* PenClose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3D919513A12A8600E7FD23 /* Build configuration list for PBXNativeTarget "PenClose" */;
+			buildPhases = (
+				8C3D915513A12A8600E7FD23 /* Sources */,
+				8C3D915613A12A8600E7FD23 /* Frameworks */,
+				8C3D915713A12A8600E7FD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenClose;
+			productName = PenClose;
+			productReference = 8C3D915913A12A8600E7FD23 /* PenClose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3D915013A12A8600E7FD23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = algoritmico;
+			};
+			buildConfigurationList = 8C3D915313A12A8600E7FD23 /* Build configuration list for PBXProject "PenClose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C3D914E13A12A8600E7FD23;
+			productRefGroup = 8C3D915A13A12A8600E7FD23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3D915813A12A8600E7FD23 /* PenClose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C3D915713A12A8600E7FD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3D916813A12A8600E7FD23 /* InfoPlist.strings in Resources */,
+				8CBF6C3013A12EEF000A392D /* MainWindow_iPhone.xib in Resources */,
+				8CBF6C3313A12EF7000A392D /* MainWindow_iPad.xib in Resources */,
+				8CBF6C3613A12FC8000A392D /* MainWindow_iPhone.xib in Resources */,
+				8CBF6C3913A12FCF000A392D /* GameView_iPhone.xib in Resources */,
+				8CBF6C3C13A13071000A392D /* GameView_iPad.xib in Resources */,
+				8CACD44513A255FE0015867A /* MenuView_iPhone.xib in Resources */,
+				8CACD46313A2D9E50015867A /* PeopleView_iPhone.xib in Resources */,
+				8CACD46C13A3B4350015867A /* MenuView_iPad.xib in Resources */,
+				8C68D8A113A56C430067D7A9 /* PeopleView_iPad.xib in Resources */,
+				8C2D9CD413A6761300515127 /* Stroke.caf in Resources */,
+				8C2D9CD913A67B3E00515127 /* OptionsView_iPhone.xib in Resources */,
+				8C2D9D2013A6DA5500515127 /* OptionsView_iPad.xib in Resources */,
+				8C2D9D6F13A7C71900515127 /* Default-Portrait~ipad.png in Resources */,
+				8C2D9D7013A7C71900515127 /* Default.png in Resources */,
+				8C2D9D7113A7C71900515127 /* Default@2x.png in Resources */,
+				8C2D9D7213A7C71900515127 /* Icon-ipad.png in Resources */,
+				8C2D9D7313A7C71900515127 /* Icon.png in Resources */,
+				8C2D9D7413A7C71900515127 /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3D915513A12A8600E7FD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3D916B13A12A8600E7FD23 /* main.m in Sources */,
+				8C3D916E13A12A8600E7FD23 /* PenCloseAppDelegate.m in Sources */,
+				8C3D917213A12A8600E7FD23 /* PenCloseAppDelegate_iPhone.m in Sources */,
+				8C3D917913A12A8600E7FD23 /* PenCloseAppDelegate_iPad.m in Sources */,
+				8CBF6C2713A12E10000A392D /* GameController.m in Sources */,
+				8CBF6C2A13A12E24000A392D /* SheetView.m in Sources */,
+				8CBF6C2D13A12E3B000A392D /* DiamondController.m in Sources */,
+				8CC789DB13A16B2F006F3525 /* DiamondModel.m in Sources */,
+				8CACD44113A255A90015867A /* MenuController.m in Sources */,
+				8CACD45D13A2D1E90015867A /* PeopleController.m in Sources */,
+				8CACD46613A35B990015867A /* PeerSession.m in Sources */,
+				8CA02A5713A639E3000F68EB /* DiamondContentDelegate.m in Sources */,
+				8C2D9D1A13A6CA7E00515127 /* CheckView.m in Sources */,
+				8C2D9D1D13A6D66300515127 /* OptionsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C2D9CD213A6761300515127 /* Stroke.caf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2D9CD313A6761300515127 /* en */,
+			);
+			name = Stroke.caf;
+			sourceTree = "<group>";
+		};
+		8C2D9CD713A67B3E00515127 /* OptionsView_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2D9CD813A67B3E00515127 /* en */,
+			);
+			name = OptionsView_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8C2D9D1E13A6DA5500515127 /* OptionsView_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2D9D1F13A6DA5500515127 /* en */,
+			);
+			name = OptionsView_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8C3D916613A12A8600E7FD23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C3D916713A12A8600E7FD23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C68D89F13A56C430067D7A9 /* PeopleView_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C68D8A013A56C430067D7A9 /* en */,
+			);
+			name = PeopleView_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8CACD44313A255FE0015867A /* MenuView_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CACD44413A255FE0015867A /* en */,
+			);
+			name = MenuView_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8CACD46113A2D9E50015867A /* PeopleView_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CACD46213A2D9E50015867A /* en */,
+			);
+			name = PeopleView_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8CACD46A13A3B4350015867A /* MenuView_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CACD46B13A3B4350015867A /* en */,
+			);
+			name = MenuView_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8CBF6C2E13A12EEF000A392D /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBF6C2F13A12EEF000A392D /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8CBF6C3113A12EF7000A392D /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBF6C3213A12EF7000A392D /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8CBF6C3713A12FCF000A392D /* GameView_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBF6C3813A12FCF000A392D /* en */,
+			);
+			name = GameView_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8CBF6C3A13A13071000A392D /* GameView_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CBF6C3B13A13071000A392D /* en */,
+			);
+			name = GameView_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C3D919313A12A8600E7FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C3D919413A12A8600E7FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C3D919613A12A8600E7FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PenClose/PenClose-Prefix.pch";
+				INFOPLIST_FILE = "PenClose/PenClose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C3D919713A12A8600E7FD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PenClose/PenClose-Prefix.pch";
+				INFOPLIST_FILE = "PenClose/PenClose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3D915313A12A8600E7FD23 /* Build configuration list for PBXProject "PenClose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D919313A12A8600E7FD23 /* Debug */,
+				8C3D919413A12A8600E7FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3D919513A12A8600E7FD23 /* Build configuration list for PBXNativeTarget "PenClose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D919613A12A8600E7FD23 /* Debug */,
+				8C3D919713A12A8600E7FD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C3D915013A12A8600E7FD23 /* Project object */;
+}
