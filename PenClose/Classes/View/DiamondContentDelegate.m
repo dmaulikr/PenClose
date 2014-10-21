@@ -3,7 +3,7 @@
 //  PenClose
 //
 //  Created by Davide De Rosa on 6/13/11.
-//  Copyright 2011 algoritmico. All rights reserved.
+//  Copyright 2011 Davide De Rosa. All rights reserved.
 //
 
 #import "DiamondContentDelegate.h"
